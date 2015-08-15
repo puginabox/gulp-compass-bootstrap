@@ -1,21 +1,26 @@
 {
-  "name": "Sass_setup",
-  "version": "0.0.1",
-  "description": "Refactoring Sass/CSS site-wide",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Griffin Byron",
-  "license": "MIT",
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "1.0.0",
-    "gulp-compass": "^1.3.1",
-    "gulp-livereload": "^2.1.1",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-minify-css": "^1.1.1",
-    "gulp-plumber": "^1.0.0",
-    "path": "^0.4.9"
-  }
+    "name": "Sass_setup",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Refactoring Sass/CSS site-wide",
+    "main": "gulpfile.js",
+    "repo": "git@bitbucket.org:griffinbyron/gulp-sass-bootstrap-scaffolding.git",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Griffin Byron",
+    "license": "MIT",
+    "devDependencies": {
+        "del": "^1.2.1",
+        "gulp": "^3.8.11",
+        "gulp-autoprefixer": "1.0.0",
+        "gulp-compass": "^1.3.1",
+        "gulp-livereload": "^2.1.1",
+        "gulp-load-plugins": "^0.10.0",
+        "gulp-minify-css": "^1.1.1",
+        "gulp-plumber": "^1.0.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^2.0.4",
+        "path": "^0.4.9"
+    }
 }
